@@ -1,0 +1,82 @@
+body {
+    background-image: none; /* Resetting background image for index.html */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Set a fixed width and height for all panels */
+.panel {
+  width: 250px; /* Adjust the width as needed */
+  height: 350px; /* Adjust the height as needed */
+  margin: auto; /* Center align the panel */
+}
+
+/* Ensure images cover the panel body, maintaining aspect ratio */
+.panel-body img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+}
+
+/* Optional: Add some padding inside the panel body for better spacing */
+.panel-body {
+  padding: 15px;
+}
+.panel-body img {
+    width: 100%; /* This makes the image take up the full width of its container */
+    height: 100%; /* This makes the image take up the full height of its container */
+    object-fit: cover; /* This ensures the image covers the area while maintaining its aspect ratio */
+  }
+
+h2 {
+    text-align: center;
+}
